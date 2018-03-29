@@ -12,4 +12,78 @@
         <script></script>
     </head>
     
+    <!---------------------------------------------------------------------------------------->
+    <!------------------------------------- body --------------------------------------------->
+    <body>
+        
+        <!---------------------------------------------------------------------------------------->
+        <!----------------------------------- header --------------------------------------------->
+        <div id="header">
+            <div id="logo">
+                <img src="Images/logo.png">
+            </div>
+            
+            <div id="menu">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Products</a></li>
+                    <li><a href="#">Clients</a></li>
+                    <li><a href="#">Contacts</a></li>
+                    <li><a href="#">News</a></li>
+                </ul>
+            </div>
+            
+            <div id="search">
+                <form id="searchForm">
+                    <input type="search" placeholder="Search">
+                </form>
+                <img src="Images/search.png" onclick="viewSearch()">
+                
+                <script>
+                    function viewSearch(){
+                        var mySearch = document.getElementById("searchForm").style.display;
+                        
+                        if (mySearch === "block"){
+                            document.getElementById("searchForm").style.display="none";
+                        }
+                        else{
+                            document.getElementById("searchForm").style.display="block";
+                        }
+                    }
+                </script>
+                
+            </div>
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+    </body>
+    
 </html>

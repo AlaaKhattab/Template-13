@@ -1,1 +1,107 @@
 /****************************************************************************/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+/****************************************************************************/
+/************************* header *******************************************/
+/****************************************************************************/
+#header{
+    background-color: #4aad52;
+    height: 100px;
+}
+
+/*******************************************/
+/*******************************************/
+#header #logo{
+    float: left;
+}
+
+#header #logo img{
+    width: 350px;
+    height: 90px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/*******************************************/
+/*******************************************/
+#header #menu{
+    float: left;
+    margin-left: 150px;
+}
+
+#header #menu ul{
+    list-style: none;
+    height: 100px;
+    text-align: center;
+}
+
+#header #menu ul li{
+    float: left;
+    width: 100px;
+    margin-top: 30px;
+}
+
+
+#header #menu ul li a{
+    text-decoration: none;
+    font-size: 22px;
+    height: 100px;
+    color: white;
+    padding: 10px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#header #menu ul li a:hover{
+    background-color: white;
+    color:#4aad52;
+}
+
+/*******************************************/
+/*******************************************/
+#header #search{
+    float: right;
+    margin-top: 35px;
+    margin-right: 20px;
+}
+
+#header #search form{
+    float: left;
+    display: none;
+}
+
+#header #search form input{
+    margin-right: 10px;
+    padding: 5px;
+}
+
+#header #search img{
+    width: 20px;
+    height: 20px;
+}
+
+#header #search img:hover{
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
