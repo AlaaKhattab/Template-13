@@ -200,12 +200,44 @@
     text-align: center;
 }
 
+/******************************************************************************************/
+/*********************************** whatWeDo *********************************************/
+/******************************************************************************************/
+#whatWeDo{
+    height: 500px;
+    padding-top: 20px;
+}
 
+#whatWeDo h1{
+    text-align: center;
+}
 
+#whatWeDo .whatWeDoBlock{
+    float: left;
+    margin-top: 40px;
+}
 
+#whatWeDo .whatWeDoBlock img{
+    width: 150px;
+    height: 150px;
+    float: left;
+    margin: 10px;
+}
 
+#whatWeDo .whatWeDoBlock .whatWeDoBlockDetails{
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
 
+#whatWeDo .whatWeDoBlock .whatWeDoBlockDetails h1{
+    font-size: 22px;
+    color: #43a855;
+}
 
+#whatWeDo .whatWeDoBlock .whatWeDoBlockDetails p{
+    margin-top: 10px;
+}
 
 
 
